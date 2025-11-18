@@ -48,7 +48,7 @@ auth-api/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/auth-api.git
+git clone https://github.com/gl33ful/auth-api.git
 cd auth-api
 ```
 
@@ -77,11 +77,11 @@ npx sequelize-cli db:migrate
 
 ### 5️⃣ Start the Server
 ```bash
-npm start
+npm run dev
 ```
 
 Server runs on:  
-👉 **http://localhost:3000**
+👉 **http://localhost:5000**
 
 ---
 
@@ -133,17 +133,6 @@ Authorization: Bearer <token>
 
 ---
 
-## 📸 Demo (Optional GIF)
-You can add a GIF showing:
-- Register on Postman
-- Login
-- Accessing `/profile`
-- Admin route returning "Access Denied" for normal user
-
-**See instructions below for how to record it.**
-
----
-
 ## 📄 License
-MIT License © 2025 YourName
+MIT License © 2025 Edinoh
 
